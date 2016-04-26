@@ -17,6 +17,7 @@ var jss = [
     'src/ja.browser.js',
     'src/ja.format.js',
     'src/ja.util.js',
+    'src/ja.string.js',
     'src/ja.template.js'
 ];
 

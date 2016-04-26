@@ -2,12 +2,14 @@
   "name": "ja",
   "version": "0.1.0",
   "description": "js lib",
-  "main": "gulpfile.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test test/index.js"
   },
   "keywords": [
-    "ja"
+    "ja",
+    "js",
+    "lib"
   ],
   "author": "along",
   "license": "ISC",
