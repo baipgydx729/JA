@@ -41,6 +41,25 @@
             .replace(/\n\n$/, '');
     };
 
+    _string.safe = function (str) {
+        return str.replace(/&amp;/g, "")
+            .replace(/&gt;/, "")
+            .replace(/&lt;/g, "")
+            .replace(/quot;/g, "")
+            .replace(/#39;/g, "")
+            .replace(/&/g, "")
+            .replace(/>/g, "")
+            .replace(/</g, "")
+            .replace(/"/g, "")
+            .replace(/'/g, "")
+            .replace(/%3C/g, "")
+            .replace(/%3c/g, "")
+            .replace(/%3E/g, "")
+            .replace(/%3e/g, "")
+            .replace(/%+\/v8/g, "")
+
+    }
+
     JA.string = _string;
 })();
 

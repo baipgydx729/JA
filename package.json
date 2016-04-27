@@ -12,7 +12,7 @@
     "lib"
   ],
   "author": "along",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.1",
